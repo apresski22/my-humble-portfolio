@@ -10,26 +10,70 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: #8c51ae;
   color: #fff;
 }
 
+header h1 {
+  font-family: "Candara";
+  text-align: left;
+}
+
+/*header p {
+  float: right;
+  text-align: right;
+}*/
+
+button {
+  font-family: "Arial";
+}
+
+.about {
+  font-family: "Candara";
+  text-align: left;
+  padding: 40px;
+  background: #000000;
+  color: #fff;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
 /* 
 What happens when we set the display property to flex?
 The flex container becomes flexible 
 */
+
 nav {
-  display: flex;
-  background-color: #d8a47f;
+  font-family: "Candara";
+  text-align: left;
+  padding: 10px;
+  background: #000000;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b9c6ae;
 }
 
 nav a {
-  color: #13293d;
-  padding: 14px 20px;
+  color: #a5b6c6;
+  padding: 40px;
   text-decoration: none;
   text-align: center;
 }
 
+/*header.description {
+  visibility: hidden;
+}*/
+
+a:hover {
+  color: aquamarine;
+}
 /* 
 What is the flex-wrap property?
 It specifies whether the flex items should wrap or not 
@@ -49,7 +93,7 @@ aside {
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
+  background: #59197e;
   color: #fff;
 }
 
@@ -75,7 +119,6 @@ We are making the product card not growable, not shrinkable, and with an initial
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
 }

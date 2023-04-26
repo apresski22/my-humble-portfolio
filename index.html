@@ -10,18 +10,38 @@
     <!-- Header -->
     <header>
       <h1>Geneva Diaz</h1>
-      <p>Welcome to my past, present, and future...</p>
-      <!--
-      <img src="./assets/images/self.jpg" />
-      -->
+      <!--Form styles-->
+      <p>
+        Send me an email if you're interested in collaborating on projects or
+        looking to be a coding mentor for someone like me!
+      </p>
+      <p>
+        <label for="username">Name:</label>
+        <!-- This element has a CSS declaration of `cursor: text` -->
+        <input id="username" type="text" placeholder="First Last" />
+      </p>
+      <p>
+        <label for="email">E-mail:</label>
+        <input id="email" type="text" placeholder="me@example.com" />
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
     </header>
-
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a foodie, a lover of the outdoors, and an aspiring devsecops
+        engineer.
+      </p>
+      <img src="./assets/images/self.jpg" />
+    </section>
     <!-- Navbar -->
     <nav>
-      <a href="#">Magic 8-Ball</a>
-      <a href="#">Vacation Time!</a>
-      <a href="#">My First Repo</a>
-      <a href="#">Memories Past</a>
+      <h2>My Work</h2>
+      <a href="#8-ball">Magic 8-Ball</a>
+      <a href="#beach">Vacation Time!</a>
+      <a href="#qrcode">My First Website</a>
     </nav>
 
     <!-- Body -->
@@ -31,27 +51,21 @@
       <!-- Product Cards -->
       <div class="products">
         <section class="card">
-          <header>Magic 8-Ball</header>
+          <header id="8-ball">Magic 8-Ball</header>
           <img src="./assets/images/8-ball.jpg" alt="Magic 8-ball" />
-          <p>Price: $300</p>
+          <p>Need a quick answer?</p>
         </section>
         <section class="card">
-          <header>Vacation Time!</header>
-          <!--current weather in vacation destinations-->
+          <header id="beach">Vacation Time!</header>
+          <!--future api for current weather in vacation destinations-->
           <img src="./assets/images/beach.jpg" alt="Beautiful Beach" />
-          <p>Price: $150</p>
+          <p>Current weather of famous beaches</p>
         </section>
         <section class="card">
-          <header>My First Repo</header>
-          <img src="./assets/images/github-icon.jpg" alt="GitHub Icon" />
+          <header id="qrcode">My First Website</header>
+          <img src="./assets/images/qrcode.png" alt="GitHub Icon" />
           <!--add href to https://apresski22.github.io/01-Challenge/-->
-          <p>Price: $30</p>
-        </section>
-        <section class="card">
-          <header>Memories Past</header>
-          <!--link to google photos folder from past-->
-          <img src="./assets/images/memories.jpg" alt="Polaroid Photos" />
-          <p>Price: $10</p>
+          <p>Rome wasn't built in a day!</p>
         </section>
       </div>
       <aside>
@@ -65,10 +79,7 @@
 
     <!-- Footer -->
     <footer>
-      <h3>
-        Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-        window!
-      </h3>
+      <h3>Thank you for visiting my portfolio!</h3>
     </footer>
   </body>
 </html>
