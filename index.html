@@ -9,32 +9,26 @@
   <body>
     <!-- Header -->
     <header>
-      <h1>Geneva Diaz</h1>
-      <!--Form styles-->
-      <p>
-        Send me an email if you're interested in collaborating on projects or
-        looking to be a coding mentor for someone like me!
-      </p>
-      <p>
-        <label for="username">Name:</label>
-        <!-- This element has a CSS declaration of `cursor: text` -->
-        <input id="username" type="text" placeholder="First Last" />
-      </p>
-      <p>
-        <label for="email">E-mail:</label>
-        <input id="email" type="text" placeholder="me@example.com" />
-      </p>
-      <p>
-        <button>Submit</button>
+      <h1 class="header">Geneva Diaz</h1>
+      <p class="foodie">
+        <strong>Foodie</strong>, lover of the <strong>outdoors</strong>, and an
+        aspiring <strong>devsecops engineer</strong>.
       </p>
     </header>
     <section class="about">
-      <h2>About Me</h2>
+      <h2 style="color: white">About Me</h2>
       <p>
-        I am a foodie, a lover of the outdoors, and an aspiring devsecops
-        engineer.
+        My first job was in high school working at Jack-in-the-Box. and when I
+        was 19 I went into the Air Force where I became a Russian linguist. I
+        was fortunate enough to be stationed in Hawaii for several years and
+        cannot wait to go back and show my daughters the beauty of the islands.
+        For the last 17 years I have been in San Antonio where I worked as a
+        contractor doing cyber security and eventually ended up working with a
+        squadron of really smart developers who reverse engineered malware!
+        Throughout my career I have seen the need to implement and verify
+        security in the software development process which leads me here today!
       </p>
-      <img src="./assets/images/self.jpg" />
+      <img class="img" src="./assets/images/self.jpg" />
     </section>
     <!-- Navbar -->
     <nav>
@@ -65,7 +59,7 @@
           <header id="qrcode">My First Website</header>
           <img src="./assets/images/qrcode.png" alt="GitHub Icon" />
           <!--add href to https://apresski22.github.io/01-Challenge/-->
-          <p>Rome wasn't built in a day!</p>
+          <p>Rome wasn't built in a day...</p>
         </section>
       </div>
       <aside>
@@ -80,6 +74,25 @@
     <!-- Footer -->
     <footer>
       <h3>Thank you for visiting my portfolio!</h3>
+      <h3>
+        <!--Form styles-->
+        <p class="message">
+          Send me an email if you're interested in collaborating on projects or
+          looking to be a coding mentor for someone like me.
+        </p>
+        <p>
+          <label for="username">Name:</label>
+          <!-- This element has a CSS declaration of `cursor: text` -->
+          <input id="username" type="text" placeholder="First Last" />
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input id="email" type="text" placeholder="me@example.com" />
+        </p>
+        <p>
+          <button>Submit</button>
+        </p>
+      </h3>
     </footer>
   </body>
 </html>

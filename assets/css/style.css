@@ -12,13 +12,24 @@ header {
   text-align: center;
   background: #8c51ae;
   color: #fff;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #b9c6ae;
 }
 
-header h1 {
+.header {
   font-family: "Candara";
   text-align: left;
+  color: white;
 }
 
+.foodie {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+strong {
+  color: aquamarine;
+}
 /*header p {
   float: right;
   text-align: right;
@@ -33,7 +44,7 @@ button {
   text-align: left;
   padding: 40px;
   background: #000000;
-  color: #fff;
+  color: #a5b6c6;
 }
 
 .img {
@@ -44,10 +55,6 @@ button {
   border-width: 1px;
   padding: 10px;
 }
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible 
-*/
 
 nav {
   font-family: "Candara";
@@ -56,7 +63,7 @@ nav {
   background: #000000;
   color: #fff;
   border-style: solid;
-  border-width: 1px;
+  border-width: 5px;
   border-color: #b9c6ae;
 }
 
@@ -66,10 +73,6 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
-
-/*header.description {
-  visibility: hidden;
-}*/
 
 a:hover {
   color: aquamarine;
@@ -88,6 +91,9 @@ aside {
   background-color: #b9c6ae;
   padding: 50px;
   text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #8c51ae;
 }
 
 footer {
@@ -108,6 +114,7 @@ It is used to align the flex items; in our case, the product cards
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "Candara";
 }
 
 /* 
@@ -121,6 +128,7 @@ We are making the product card not growable, not shrinkable, and with an initial
   border-width: 1px;
   padding: 10px;
   flex: 0 0 400px;
+  margin: 2pc;
 }
 
 .card header {
