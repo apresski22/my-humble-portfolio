@@ -15,6 +15,14 @@ header {
   border-style: solid;
   border-width: 5px;
   border-color: #b9c6ae;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.social-media {
+  text-align: right;
+  font-size: 3em;
+  color: #fff;
 }
 
 .header {
@@ -27,6 +35,7 @@ header {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 strong {
   color: aquamarine;
 }
@@ -89,18 +98,21 @@ main {
 aside {
   flex: 1;
   background-color: #b9c6ae;
-  padding: 50px;
-  text-align: center;
+  padding: 30px;
+  text-align: left;
   border-style: solid;
   border-width: 5px;
   border-color: #8c51ae;
+  font-family: "Candara";
 }
 
 footer {
   padding: 20px;
   text-align: center;
-  background: #59197e;
+  background: #8c51ae;
   color: #fff;
+  color: #fff;
+  font-family: "Candara";
 }
 
 /* 

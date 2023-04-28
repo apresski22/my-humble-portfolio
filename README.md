@@ -16,4 +16,4 @@ There is a brief "About Me" section explaining why the author decided to pursue 
 
 # contact
 
-Please contact the author at werdnerd22@gmail.com for any questions, comments or general feedback.
+Thank you for visiting my-humble-portfolio. Please contact the author at werdnerd22@gmail.com for any questions, comments or general feedback.
